@@ -9,7 +9,7 @@ from core.models import PermissionLevel
 
 class AnnoucementPlugin(commands.Cog):
     """
-    Easily create plain text or embedded announcements
+    Easily create plain text or embedded announcements with a command
     """
 
     def __init__(self, bot):
