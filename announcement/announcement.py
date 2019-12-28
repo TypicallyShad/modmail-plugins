@@ -18,10 +18,10 @@ class AnnoucementPlugin(commands.Cog):
 
     @commands.group(aliases=["a"], invoke_without_command=True)
     @commands.guild_only()
-    @checks.has_permissions(PermissionLevel.REGULAR)
+    @checks.has_permissions(PermissionLevel.ADMIN)
     async def announcement(self, ctx: commands.Context):
         """
-        Make Announcements Easily
+        Make your custom announcements in a high detailed embed.
         """
         await ctx.send_help(ctx.command)
 
